@@ -1,7 +1,8 @@
 import { Configuration, OpenAIApi } from 'openai'
 
 const configuration = new Configuration({
-  apiKey: import.meta.env.PUBLIC_OPEN_AI_KEY,
+  // apiKey: import.meta.env.PUBLIC_OPEN_AI_KEY,
+  apiKey: 'hola',
 })
 
 const openai = new OpenAIApi(configuration)

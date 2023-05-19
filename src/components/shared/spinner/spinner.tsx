@@ -1,12 +1,7 @@
 import { component$, useStylesScoped$ } from '@builder.io/qwik'
 import styles from './spinner.css?inline'
 
-interface Props {
-  text?: string
-  size?: number
-}
-
-export const Spinner = component$(({ text, size = 6 }: Props) => {
+export const Spinner = component$(() => {
   useStylesScoped$(styles)
   return (
     // <div class='flex items-center justify-center gap-1'>
