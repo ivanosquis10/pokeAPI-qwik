@@ -118,7 +118,7 @@ export default component$(() => {
         <div q:slot='title'>{pokemonModal.name}</div>
         <div q:slot='content' class='flex flex-col items-center justify-center'>
           <PokemonImage id={pokemonModal.id} />
-
+          <p>Aquí hay un random fact del pokemon generado por ChatGPT :D</p>
           {/* <div class='font-medium '>
             {responsePokemonFunFact.value === '' ? (
               <Spinner />
